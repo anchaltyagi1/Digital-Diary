@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Big Picture</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #faf9fa;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 32px 8px 32px 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .banner {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .banner-text {
+            font-family: 'Pacifico', cursive;
+            font-size: 2.2rem;
+            color: #222;
+            background: #b39ddb;
+            display: inline-block;
+            padding: 12px 60px 12px 60px;
+            border-radius: 40px 90px 40px 90px/40px 30px 60px 30px;
+            margin: 0;
+            box-shadow: 0 2px 8px #e9e2d8;
+            letter-spacing: 1px;
+        }
+        .instructions {
+            color: #888;
+            font-size: 1.05rem;
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 0;
+            max-width: 90%;
+        }
+        .big-section {
+            width: 100%;
+            background: #fff;
+            border: 1.5px solid #bdbdbd;
+            border-radius: 8px;
+            margin-bottom: 28px;
+            min-height: 80px;
+            box-sizing: border-box;
+            box-shadow: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 0 18px 0;
+        }
+        .big-section h4 {
+            color: #888;
+            font-weight: normal;
+            font-size: 1.15rem;
+            text-align: center;
+            margin: 16px 0 0 0;
+            font-family: Arial, sans-serif;
+        }
+        .big-section p {
+            margin: 10px 20px 0 20px;
+            width: 90%;
+            min-height: 40px;
+            color: #222;
+            font-size: 1rem;
+        }
+        @media (max-width: 600px) {
+            .container {
+                max-width: 98vw;
+                padding: 10px 2vw;
+            }
+            .banner-text {
+                font-size: 1.3rem;
+                padding: 8px 10vw;
+            }
+            .big-section {
+                min-height: 60px;
+                margin-bottom: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <span class="banner-text">The big picture</span>
+        </div>
+        <p class="instructions">
+            Create your "big picture" of how you see your life in 10 years and then break this down into the smaller things that you can do in the next five years, next year, next month, next week and today.
+        </p>
+        <div class="big-section" id="div1">
+            <h4>My life in 10 years</h4>
+            <p></p>
+        </div>
+        <div class="big-section" id="div2">
+            <h4>My life in 5 years</h4>
+            <p></p>
+        </div>
+        <div class="big-section" id="div3">
+            <h4>My life next month</h4>
+            <p></p>
+        </div>
+        <div class="big-section" id="div4">
+            <h4>My life next week</h4>
+            <p></p>
+        </div>
+        <div class="big-section" id="div5">
+            <h4>My life today</h4>
+            <p></p>
+        </div>
+    </div>
+</body>
+</html>

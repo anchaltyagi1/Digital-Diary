@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yearly Goals</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+        min-height: 100vh;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background: #f7faf7;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+        width: 100vw;
+        padding: 40px 0 0 0;
+        box-sizing: border-box;
+      }
+      #heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      #heading h1 {
+        font-family: "Pacifico", cursive;
+        font-size: 2.5rem;
+        background: #f7cbb2;
+        display: inline-block;
+        padding: 10px 60px 10px 60px;
+        border-radius: 30px 80px 30px 80px/40px 30px 60px 30px;
+        margin: 0;
+        box-shadow: 0 2px 8px #e9e2d8;
+        letter-spacing: 1px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 0;
+        background: #fff;
+        box-shadow: 0 2px 16px #e9e2d8;
+        border-radius: 10px;
+        width: 700px;
+        max-width: 95vw;
+        height: 60vh;
+        min-height: 300px;
+        overflow: hidden;
+        border: 1px solid #e5e5e5;
+      }
+      .container > div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 30px 30px 0 30px;
+        position: relative;
+        background: transparent;
+      }
+      /* Dotted grid lines */
+      .container > div {
+        border-right: 1.5px dotted #bfcdbf;
+        border-bottom: 1.5px dotted #bfcdbf;
+      }
+      .container > div:nth-child(2n) {
+        border-right: none;
+      }
+      .container > div:nth-child(5),
+      .container > div:nth-child(6) {
+        border-bottom: none;
+      }
+
+      /* Section label styling */
+      .container span {
+        font-family: Arial, sans-serif;
+        font-size: 1.05rem;
+        font-weight: normal;
+        background: linear-gradient(90deg, #e3f2e1 60%, transparent 100%);
+        color: #333;
+        padding: 4px 18px 4px 8px;
+        border-radius: 8px 20px 8px 20px;
+        margin-bottom: 10px;
+        margin-top: 0;
+        box-shadow: none;
+        letter-spacing: 1px;
+        display: inline-block;
+      }
+      .container p {
+        margin: 0;
+        color: #222;
+        font-size: 1rem;
+      }
+      @media (max-width: 800px) {
+        .container {
+          width: 98vw;
+          height: 60vh;;
+          min-height: 60vh;
+        }
+        .main {
+          padding: 10px 0 0 0;
+        }
+      }
+      @media (max-width: 600px) {
+        .container {
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(6, 1fr);
+          width: 98vw;
+          height: auto;
+          min-height: 300px;
+        }
+        .container > div {
+          border-right: none !important;
+        }
+        .container > div:not(:last-child) {
+          border-bottom: 1.5px dotted #bfcdbf;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div id="heading">
+        <h1>Yearly goals</h1>
+      </div>
+      <div class="container">
+        <div id="div1">
+          <span>SELF GROWTH</span>
+          <p>nbjhvhyhugutu</p>
+        </div>
+        <div id="div2">
+          <span>HEALTH</span>
+          <p>jjgxfdxtiigtyzgfckjn</p>
+        </div>
+        <div id="div3">
+          <span>RELATIONSHIPS</span>
+          <p></p>
+        </div>
+        <div id="div4">
+          <span>FINANCES</span>
+          <p></p>
+        </div>
+        <div id="div5">
+          <span>CAREER</span>
+          <p></p>
+        </div>
+        <div id="div6">
+          <span>LONG TERM</span>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
