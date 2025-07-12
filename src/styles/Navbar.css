@@ -38,5 +38,6 @@ nav {
     margin-left: 15px;
   }
   .auth-buttons button:hover{
-    background-color: rgb(222, 202, 217);
+    background-color: rgba(15, 192, 231, 0.549);
+    color: white;
   }
