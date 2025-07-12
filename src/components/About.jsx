@@ -1,7 +1,7 @@
 
 import react from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Home.css';
+import '../styles/Home.css';
 
 const About=()=>{
     return(

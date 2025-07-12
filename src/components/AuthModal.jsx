@@ -1,8 +1,8 @@
 // components/AuthModal.js
 import React from "react";
 import { signInWithPopup } from "firebase/auth";
-import { auth, provider } from "../firebase";
-import "./AuthModal.css";
+import { auth, provider } from "../services/firebase";
+import "../styles/AuthModal.css";
 
 const AuthModal = ({ onClose }) => {
   const handleGoogleLogin = async () => {

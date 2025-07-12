@@ -1,27 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './Home.css'; // Optional: if you have custom styles
+import '../styles/Home.css'; // Optional: if you have custom styles
 
 const DigitalDiary = () => {
   return (
     <>
-      {/* Navbar */}
-      <header>
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="#">Daily Notes</a></li>
-            <li><a href="#">Pictures</a></li>
-            <li><a href="#">Goals</a></li>
-          </ul>
-          <div className="auth-buttons">
-              <button onClick={onAuthClick}>Sign In</button>
-              <button onClick={onAuthClick}>Sign Up</button>
-          </div>
-        </nav>
-      </header>
-
       {/* Main Diary Layout */}
       <main className="container mt-5">
         <h2 className="text-center mb-4">📔 Daily Digital Diary</h2>
