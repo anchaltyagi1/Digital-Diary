@@ -7,7 +7,7 @@ const DigitalDiary = () => {
     <>
       {/* Main Diary Layout */}
       <main className="container mt-5">
-        <h2 className="text-center mb-4">📔 Daily Digital Diary</h2>
+        <h2 className="text-center mb-4">Daily Digital Diary</h2>
         <div className="row g-3">
 
           {/* Column 1 */}

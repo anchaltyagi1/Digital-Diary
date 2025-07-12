@@ -1,26 +1,42 @@
-  nav {
-    background-color: #a855f7; /* purple-600 */
-    padding: 10px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+nav {
+  background-color: rgba(0, 62, 81, 0.3); /* translucent version of #84d2ea */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
   nav ul {
     list-style: none;
+    text-transform: capitalize;
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 25px;
     margin: 0;
     padding: 0;
   }
-
+  
   nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
   }
 
-  .auth-buttons a {
-    color: white;
+  .auth-buttons button{
+    padding: 10px 20px;
+    border: none;
+    color: black;
+    border-radius: 25px;
     margin-left: 15px;
+  }
+  .auth-buttons button:hover{
+    background-color: rgb(222, 202, 217);
   }

@@ -1,6 +1,7 @@
 // App.js
 import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Home from "./components/Home";
 import About from "./components/About";
 import AuthModal from "./components/AuthModal"; // Make sure it's correctly named

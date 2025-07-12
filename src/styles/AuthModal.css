@@ -12,10 +12,11 @@
 }
 
 .modal-box {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #fff;
   padding: 30px;
   width: 90%;
-  max-width: 400px;
+  max-width: 600px;
   border-radius: 12px;
   text-align: center;
   position: relative;
@@ -24,9 +25,9 @@
 
 .close-btn {
   position: absolute;
-  top: 12px;
-  right: 15px;
-  font-size: 20px;
+  top: 1px;
+  right: 25px;
+  font-size: 40px;
   cursor: pointer;
 }
 
@@ -34,7 +35,8 @@
   background-color: #4285F4;
   color: white;
   border: none;
-  padding: 12px 20px;
+  margin-top: 10px;
+  padding: 12px 40px;
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
