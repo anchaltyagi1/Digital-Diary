@@ -16,8 +16,8 @@ const DigitalDiary = () => {
             <li><a href="#">Goals</a></li>
           </ul>
           <div className="auth-buttons">
-            <a href="#">Sign In</a>
-            <a href="#">Sign Up</a>
+              <button onClick={onAuthClick}>Sign In</button>
+              <button onClick={onAuthClick}>Sign Up</button>
           </div>
         </nav>
       </header>
