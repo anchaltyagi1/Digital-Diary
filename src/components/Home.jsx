@@ -2,19 +2,17 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Home.css";
 
-// Translucent pastel colors with alpha (glass tint)
 const colors = [
-  "rgba(255, 205, 211, 0.6)", // light red
-  "rgba(200, 230, 201, 0.6)", // light green
-  "rgba(187, 222, 251, 0.6)", // light blue
-  "rgba(255, 249, 196, 0.6)", // light yellow
-  "rgba(194, 187, 219, 0.6)", // light purple
-  "rgba(226, 102, 138, 0.6)", // light purple
-  "rgba(154, 163, 101, 0.6)", // light orange
-  "rgba(255, 224, 178, 0.6)", // light orange
+  "rgba(255, 205, 211, 0.6)",
+  "rgba(200, 230, 201, 0.6)",
+  "rgba(187, 222, 251, 0.6)",
+  "rgba(255, 249, 196, 0.6)",
+  "rgba(194, 187, 219, 0.6)",
+  "rgba(226, 102, 138, 0.6)",
+  "rgba(154, 163, 101, 0.6)",
+  "rgba(255, 224, 178, 0.6)",
 ];
 
-// Reusable CardBox with glass effect + dynamic color tint
 const CardBox = ({ title, index, children }) => {
   const backgroundColor = colors[index % colors.length];
 
