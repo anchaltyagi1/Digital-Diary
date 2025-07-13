@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(4px);
   margin: 0;
   padding: 0;
 }
@@ -14,17 +14,6 @@ body {
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 8px;
-  }
-
-  .card-box {
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* for Safari */
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    margin-bottom: 20px;
   }
 
   .label-input {

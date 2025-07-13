@@ -1,6 +1,6 @@
 nav {
-  background-color: rgba(0, 62, 81, 0.3); /* translucent version of #84d2ea */
-  backdrop-filter: blur(12px);
+  background-color: rgba(0, 62, 81, 0.4); /* translucent version of #84d2ea */
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(12px); /* Safari support */
   padding: 10px 30px;
   display: flex;
