@@ -1,0 +1,100 @@
+body {
+  background-image: url('../assets/ddbackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+  margin: 0;
+  padding: 0;
+}
+
+.section-container {
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.section-container h2 {
+  font-size: 1.8rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.styled-list {
+  list-style: none;
+  padding: 0;
+}
+
+.styled-list li {
+  font-size: 1rem;
+  background-color: #e3f2fd;
+  margin: 0.5rem 0;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  color: #0d47a1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s;
+}
+
+.styled-list li:hover {
+  background-color: #bbdefb;
+}
+
+.form-area {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-area input {
+  padding: 0.6rem;
+  border: 1px solid #90caf9;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 250px;
+}
+
+.form-area button {
+  padding: 0.6rem 1rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.form-area button:hover {
+  background-color: #1565c0;
+}
+.styled-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: #ef5350;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}

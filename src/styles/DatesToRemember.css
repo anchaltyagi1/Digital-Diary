@@ -1,0 +1,96 @@
+body {
+  background-image: url('../assets/ddbackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+  margin: 0;
+  padding: 0;
+}
+
+.dates-container {
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dates-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0d47a1;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.dates-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dates-list li {
+  background-color: #e3f2fd;
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #0d47a1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dates-list li:hover {
+  background-color: #bbdefb;
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+}
+
+.dates-list button {
+  background-color: #ef5350;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.dates-list button:hover {
+  background-color: #d32f2f;
+}
+
+.add-date-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.add-date-form input {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #90caf9;
+  font-size: 0.95rem;
+}
+
+.add-date-form button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-date-form button:hover {
+  background-color: #1565c0;
+}

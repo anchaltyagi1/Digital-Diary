@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import AuthModal from "./components/AuthModal"; // Make sure it's correctly named
 import Navbar from './components/Navbar'
+import DatesToRemember from './components/DatesToRemember'
 
 function App() {
   const [showModal, setShowModal] = useState(false);
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
+  
     </>
   );
 }

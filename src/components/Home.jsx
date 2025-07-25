@@ -1,6 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Home.css";
+import DatesToRemember from "./DatesToRemember"
+import AchievementAndLessons from "./AchievementAndLessons"
+
 
 const colors = [
   "rgba(255, 205, 211, 0.6)",
@@ -117,6 +120,8 @@ const DigitalDiary = () => {
           </CardBox>
         </div>
       </div>
+          <DatesToRemember/>
+          <AchievementAndLessons/>
     </main>
   );
 };
