@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Home.css";
 import DatesToRemember from "./DatesToRemember"
 import AchievementAndLessons from "./AchievementAndLessons"
+import VisionStatements from"./VisionStatements"
+import LetterFromFuture from "./LetterFromFuture";
+import PeopleWhoInspireYou from "./PeopleWhoInspireYou";
 
 
 const colors = [
@@ -122,6 +125,9 @@ const DigitalDiary = () => {
       </div>
           <DatesToRemember/>
           <AchievementAndLessons/>
+          <VisionStatements/>
+          <LetterFromFuture/>
+          <PeopleWhoInspireYou/>
     </main>
   );
 };

@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.letter-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #2c2c2c;
+  margin-bottom: 12px;
+}
+
+.description {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.letter-textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 30px;
+}
+
+.letter-textarea:focus {
+  outline: none;
+  border-color: #999;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Envelope Illustration */
+.envelope-illustration {
+  position: relative;
+  width: 160px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.envelope-illustration .flap {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 40px solid #d3d3d3;
+  position: absolute;
+  top: 0;
+}
+
+.envelope-illustration .body {
+  width: 160px;
+  height: 60px;
+  background: #e0e0e0;
+  position: absolute;
+  top: 40px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
